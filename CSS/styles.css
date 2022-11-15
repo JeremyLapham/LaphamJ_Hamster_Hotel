@@ -7,7 +7,7 @@ body {
     opacity: 1;
 }
 
-header {
+.heroImg {
     background-image: url("../Assets/Pictures/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -16,14 +16,10 @@ header {
     display: flex;
 }
 
-nav {
-    display: flex;
-    top: 0px;
-    left: 0px;
-    height: 120px;
-    opacity: 1;
-    width: 100%;
-    color: #000324;
+.Txtbg {
+    list-style: none;
+    background: #000324 0% 0% no-repeat;
+    opacity: 0.8;
 }
 
 .navbar-brand {
@@ -37,6 +33,13 @@ nav {
 
 .navbar-custom {
     background-color: #000324;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    height: 120px;
+    opacity: 1;
+    width: 100%;
+    color: #000324;
 }
 
 .hamHome {
@@ -55,6 +58,18 @@ nav {
     height: 738px;
     opacity: 1;
     background-image: url("../Assets/Pictures/bg2.jpg");
+}
+
+.back2 {
+    display: flex;
+    width: 1922px;
+    height: 548px;
+    opacity: 1;
+    background-image: url("../Assets/Pictures/bg.jpg");
+}
+.words {
+    display: flex;
+justify-content: center;
 }
 
 .i1 {
@@ -81,7 +96,7 @@ nav {
     opacity: 1;
 }
 
-.wedWord {
+.beachWed {
     width: 561px;
     height: 95px;
 }
@@ -92,4 +107,39 @@ nav {
     width: 561px;
     height: 234px;
     opacity: 1;
+}
+
+.packageTable {
+    display: flex;
+    justify-content: center;
+}
+
+.fullBloom {
+    width: 561px;
+    height: 95px;
+}
+
+.fullBloomPic {
+    display: flex;
+    justify-content: flex-start;
+    width: 561px;
+    height: 234px;
+    opacity: 1;
+}
+
+.hamCheese {
+    display: flex;
+    justify-content: flex-start;
+    width: 561px;
+    height: 234px;
+    opacity: 1;
+}
+
+.money {
+    color: #1F51A8;
+}
+
+.room {
+    color: #FFFFFF;
+    font-family: Dosis;
 }
