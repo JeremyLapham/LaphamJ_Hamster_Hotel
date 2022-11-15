@@ -5,6 +5,7 @@ body {
     height: 4612px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+    display: flex;
 }
 
 .heroImg {
@@ -17,9 +18,14 @@ body {
 }
 
 .Txtbg {
-    list-style: none;
-    background: #000324 0% 0% no-repeat;
+    margin-top: 30rem;
+    width: 500px;
+    height: 232px;
+    background: #000324 0% 0% no-repeat padding-box;
     opacity: 0.8;
+    background-color: #000324;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-brand {
@@ -27,16 +33,16 @@ body {
     color: #FFFFFF;
 }
 
-.wordColor {
+.nav-link {
     color: #FFFFFF;
 }
 
 .navbar-custom {
-    background-color: #000324;
     display: flex;
-    top: 0px;
-    left: 0px;
+    text-decoration-color: #FFFFFF;
+    background-color: #000324;
     height: 120px;
+    width: 1920;
     opacity: 1;
     width: 100%;
     color: #000324;
@@ -61,15 +67,22 @@ body {
 }
 
 .back2 {
-    display: flex;
-    width: 1922px;
+    width: 1920;
     height: 548px;
     opacity: 1;
     background-image: url("../Assets/Pictures/bg.jpg");
 }
+.back3 {
+    width: 1137px;
+    height: 620px;
+background: #000324 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
 .words {
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 .i1 {
@@ -112,6 +125,7 @@ justify-content: center;
 .packageTable {
     display: flex;
     justify-content: center;
+    padding-top: 5rem;
 }
 
 .fullBloom {
@@ -143,11 +157,86 @@ justify-content: center;
     color: #FFFFFF;
     font-family: Dosis;
 }
-footer {
-    display:flex;
-left: 0px;
-width: 1920px;
-height: 300px;
-background: #000324 0% 0% no-repeat padding-box;
+
+.sourceSansFont {
+    font-family: Source Sans Pro;
+}
+
+.Dosis {
+    font-family: Dosis;
+}
+
+.col-4 {
+    height: 522px;
+    width: 400px;
+}
+
+.button {
+    background-color: #004CC7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.Size {
+    font-size: xx-large;
+}
+
+.Run {
+    width: 456px;
+    height: 57px;
+    text-align: center;
+    font: normal normal normal 45px/57px Dosis;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+}
+
+.Explore {
+    width: 418px;
+    height: 20px;
+    text-align: center;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+}
+
+.hour {
+    width: 150px;
+    height: 101px;
+}
+
+.breakfast {
+    width: 150px;
+    height: 104px;
+}
+
+.AmenIcon {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.valet {
+    width: 100px;
+    height: 115px;
+}
+.resRoom {
+    width: 1137px;
+    height: 414px;
 opacity: 1;
 }
