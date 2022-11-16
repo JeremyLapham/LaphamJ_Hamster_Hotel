@@ -10,61 +10,67 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
-<body class="container-fluid ">
-    <div class="container-fluid ">
+<body class="container-fluid">
+    <div class="container-fluid">
         <!-- Navbar start -->
         <div class="heroImg justify-content-center">
             <div class="row">
                 <div class="d-flex justify-content-center">
-                    <nav class="navbar navbar-expand-lg navbar-custom">
-                        <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse navbar-brand" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link " href="#">Overview</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link " href="#">Rooms</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link " href="#">Packages</a>
-                                    </li>
-                                    <li class="nav-item ">
-                                        <i><img src="./Assets/Pictures/Logo.png" alt="Logo in navbar"></i>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link " href="#">Amenities</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link " href="#">Contact</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link " href="#">Reserve</a>
-                                    </li>
-
-                                </ul>
-                            </div>
+                    <nav class="col-12 navbar navbar-expand-lg navbar-custom">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse navbar-brand" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <br><br>
+                                    <a class="nav-link NavBarWords" style="color:white" aria-current="page"
+                                        href="#overview">Overview</a>
+                                </li>
+                                <li class="nav-item">
+                                    <br><br>
+                                    <a class="nav-link NavBarWords" href="#room" style="color:white">Rooms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <br><br>
+                                    <a class="nav-link NavBarWords" style="color:white" href="#package">Packages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="./Assets/Pictures/Logo.png" alt="Logo" width="143" height="100">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <br><br>
+                                    <a class="nav-link NavBarWords" style="color:white" href="#amenities">Amenities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <br><br>
+                                    <a class="nav-link NavBarWords" style="color:white" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item reserveTxt">
+                                    <br><br>
+                                    <a class="nav-link NavBarWords" style="color:white" href="#reserve">Reserve</a>
+                                </li>
+                            </ul>
                         </div>
                     </nav>
                 </div>
-                <div class="row">
-                    <div class="col-7 Txtbg">
-                        <h1 class="Run">Run the wheel of luxury</h1>
-                        <p class="Explore">Explore everything the beach has to offer in our relaxing resort.</p>
+                <div class="row Txtbg">
+                    <div class="col">
                     </div>
+                    <h1 class="Run">Run the wheel of luxury</h1>
+                    <p class="Explore">Explore everything the beach has to offer in our relaxing resort.</p>
                 </div>
             </div>
-            <!-- Navbar end -->
         </div>
+        <!-- Navbar end -->
         <div class="container padding">
             <div class="row">
                 <!-- Welcome to hamster's paradise start -->
-                <div class="col-4 hamHome"> <img src="./Assets/Pictures/hamsterhomejpg.jpg" alt="">
+                <div class="col-4 hamHome" id="overview"> <img src="./Assets/Pictures/hamsterhomejpg.jpg" alt="">
                 </div>
                 <div class="col-8 Dosis">
                     <h1>Welcome to a hamster's paradise</h1>
@@ -93,10 +99,10 @@
 
             </div>
         </div>
-        <div class="container-fluid back">
+        <!-- Rooms Start -->
+        <div class="container-fluid back" id="room">
             <br>
             <br>
-            <!-- Rooms Start -->
             <div class="row">
                 <div class="col">
                     <h1 class="d-flex justify-content-center room">Our Rooms</h1>
@@ -167,7 +173,7 @@
         </div>
         <!-- Rooms end -->
         <!-- Table start -->
-        <table class="packageTable padding">
+        <table class="packageTable padding" id="package">
             <tr class="d-flex justify-content-center">
                 <td class="Size Dosis">Packages</td>
             </tr>
@@ -216,50 +222,81 @@
         <br>
         <br>
         <!-- Amenities start-->
-        <div class="container-fluid back2">
+        <div class="container-fluid back2" id="amenities">
             <br>
             <br>
-            <div class="container-fluid words">
-                <div class="row">
-                    <h1 class="d-flex justify-content-center room">Amenities</h1>
-                    <p class="Explore">Here at La Petite Maison, we invite you to enjoy our services in hopes that you
-                        have the most
-                        relaxing stay we can provide.</p>
-                </div>
+            <div class="row">
+                <h1 class="d-flex justify-content-center room">Amenities</h1>
+                <p class="Explore">Here at La Petite Maison, we invite you to enjoy our services in hopes that you
+                    have the most
+                    relaxing stay we can provide.</p>
             </div>
-            <div class="container AmenIcon">
-                <div class="row">
-                    <div class="col-3 hour"><i><img src="./Assets/Pictures/24hour.png" alt="24 hour room service"></i>
-                    </div>
-                    <div class="col-3 breakfast"><i><img src="./Assets/Pictures/breakfast.png" alt="Breakfast"></i>
-                    </div>
-                    <div class="col-3 valet"> <i><img src="./Assets/Pictures/valet.png" alt="Valet parking"></i>
-                    </div>
-                    <div class="col-3"> <i><img src="./Assets/Pictures/pool.png" alt="pool"></i>
-                    </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-3 AmenIcon"><i><img class="hour" src="./Assets/Pictures/24hour.png"
+                            alt="24 hour room service"></i>
+                </div>
+                <div class="col-3 AmenIcon"><i><img class="breakfast" src="./Assets/Pictures/breakfast.png"
+                            alt="Breakfast"></i>
+                </div>
+                <div class="col-3 AmenIcon"> <i><img class="valet" src="./Assets/Pictures/valet.png"
+                            alt="Valet parking"></i>
+                </div>
+                <div class="col-3 AmenIcon"> <i><img class="pool" src="./Assets/Pictures/pool.png" alt="pool"></i>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col whiteFont AmenTxt sourceSansFont">
+                    <p> <strong> 24 Hour Room Service</strong></p>
+                </div>
+                <div class="col whiteFont AmenTxt sourceSansFont">
+                    <p> <strong> Complimentary Breakfast </strong></p>
+                </div>
+                <div class="col whiteFont AmenTxt sourceSansFont">
+                    <p><strong> Valet Parking </strong></p>
+                </div>
+                <div class="col whiteFont AmenTxt sourceSansFont">
+                    <p><strong> Beachside Pool </strong></p>
                 </div>
             </div>
 
+
         </div>
-        <br><br><br><br><br>
         <!-- Amenities end -->
         <!-- Reserver a room start -->
-        <div class="container">
-            <div class="row">
-            <div class="grid text-center" style="--bs-columns: 3;">
-                
-                <div class="back3">
-                    <br><br><br><br><br><br><br><br>
-                <div class="grid">
-                    <div class="g-col-6 hamReserve"><img src="./Assets/Pictures/hamsterreserve.jpg" alt=""></div>
-                
-              </div>
-            </div>
-          </div>  
-        </div>
-        </div>     
-           <!-- Reserve a room end -->
-           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <table class="reserveRoomTbl">
+            <tr class="back3 centers">
+                <td>
+                    <br>
+                    <div class="row">
+                        <h1 class="Dosis centers whiteFont">Reserve a room</h1>
+                        <div class="grid whiteFont sourceSansFont">
+                            <p>Check In</p>
+                            <p>Check Out</p>
+                            <p>Number of Guests</p>
+                            <p>Room Type</p>
+                        </div>
+                        <div class="grid">
+                            <input type="text" name="check in">
+                            <input type="text" name="check out">
+                            <input type="text" name="Number of guests">
+                            <input type="text" name="Room Type">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="reserveSpring" src="./Assets/Pictures/hamsterreserve.jpg" alt="">
+                </td>
+
+            </tr>
+
+
+
+
+        </table>
+        <!-- Reserve a room end -->
         <footer>
             <div class="row">
                 <i class="footLogo"><img src="./Assets/Pictures/Logo.png" alt="Logo in navbar"></i>

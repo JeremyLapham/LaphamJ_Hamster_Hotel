@@ -7,6 +7,19 @@ body {
     display: flex;
 }
 
+.NavBar {
+    display: flex;
+    background-color: #000324;
+    align-items: flex-end;
+}
+
+.NavBarWords {
+    display: flex;
+    font: normal normal normal 20px/26px Dosis;
+    color: #ffffff;
+    opacity: 1;
+}
+
 .heroImg {
     background-image: url("../Assets/Pictures/header.jpg");
     background-position: center;
@@ -17,14 +30,12 @@ body {
 }
 
 .Txtbg {
-    display: flex;
-    margin-top: 30rem;
+    top: 253px;
+    left: 488px;
+    width: 945px;
     height: 232px;
     background: #000324 0% 0% no-repeat padding-box;
     opacity: 0.8;
-    background-color: #000324;
-    align-items: center;
-    justify-content: center;
 }
 
 .navbar-brand {
@@ -43,8 +54,6 @@ body {
     height: 120px;
     width: 1920;
     opacity: 1;
-    width: 100%;
-    color: #000324;
 }
 
 .hamHome {
@@ -73,11 +82,17 @@ body {
 }
 
 .back3 {
+    display: flex;
     width: 1137px;
     height: 207px;
     background: #000324 0% 0% no-repeat padding-box;
     opacity: 1;
 
+}
+
+.centers {
+    display: flex;
+    justify-content: center;
 }
 
 .words {
@@ -128,6 +143,12 @@ body {
     padding-top: 5rem;
 }
 
+.reserveRoomTbl {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
 .fullBloom {
     width: 561px;
     height: 95px;
@@ -148,9 +169,11 @@ body {
     height: 234px;
     opacity: 1;
 }
-.hamReserve {
+
+.reserveSpring {
     width: 1137px;
     height: 414px;
+    padding-bottom: 5rem;
 }
 
 .money {
@@ -168,6 +191,10 @@ body {
 
 .Dosis {
     font-family: Dosis;
+}
+
+.whiteFont {
+    color: white;
 }
 
 .col-4 {
@@ -233,6 +260,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
+    align-self: center;
 }
 
 .valet {
@@ -246,6 +274,13 @@ body {
     width: 1137px;
     height: 414px;
     opacity: 1;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-inline: 1rem;
+    text-align: center;
 }
 
 footer {
@@ -271,6 +306,7 @@ footer {
     color: #E5FEFF;
     opacity: 1;
 }
+
 .footTxtTwo {
     padding: 1rem;
     width: 316px;
@@ -280,4 +316,19 @@ footer {
     letter-spacing: 0px;
     color: #E5FEFF;
     opacity: 1;
+}
+
+input {
+    display: flex;
+    width: 177px;
+    height: 38px;
+    background: #EBEDFC 0% 0% no-repeat padding-box;
+    border: 1px solid #7A90D9;
+    opacity: 1;
+    justify-self: center;
+    justify-content: space-evenly;
+}
+.AmenTxt {
+    display: flex;
+    justify-content: center;
 }
