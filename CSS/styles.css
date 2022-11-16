@@ -21,15 +21,17 @@ body {
 }
 
 .heroImg {
+    display: flex;
     background-image: url("../Assets/Pictures/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 500px;
-    display: flex;
+    
 }
 
 .Txtbg {
+    display: flex;
     top: 253px;
     left: 488px;
     width: 945px;
