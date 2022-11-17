@@ -385,6 +385,11 @@ div.item {
     text-align: center;
 
 }
-.navbar-toggle.collapsed {
-    background-color: white !important;
+
+.hamburger {
+    background-color: white;
+    border-color: #FFFFFF;
+}
+.border {
+    border: 2px #FFFFFF;
 }
