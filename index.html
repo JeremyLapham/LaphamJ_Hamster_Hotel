@@ -1,3 +1,12 @@
+<!-- 
+Jeremy Lapham
+11-18-22
+Hamster Hotel
+This is a singlw person project where I had to design a static website from a prototype that was made in Adobe XD
+Peer Reviewed By: 
+ -->
+
+
 <!doctype html>
 <html lang="en">
 
@@ -12,7 +21,34 @@
 
 <body>
     <!-- Nabar             -->
-    <div class="row bGColor">
+    <div class="row bGColor ppad d-none d-lg-block d-xl-block">
+
+        <div class="d-flex align-items-end justify-content-center ">
+            <div class="col-1 hTxta"><a class="text-decoration-none btn-primary hover " href="#overview">
+                Overview
+                </a></div>
+            <div class="col-1 hTxta"><a class="text-decoration-none btn-primary hover" href="#room">
+                Rooms
+                </a></div>
+            <div class="col-1 hTxta"><a class="text-decoration-none btn-primary hover" href="#packages">
+                Packages
+                </a></div>
+            <div class="col-2 d-flex justify-content-center"><img src="./assets/pictures/Logo.png" alt="Logo" width="143" height="100"
+                    class="d-inline-block align-text-top"></div>
+            <div class="col-1 hTxtb"><a class="text-decoration-none btn-primary hover" href="#amenities">
+                Amenities
+                </a></div>
+            <div class="col-1 hTxtb"><a class="text-decoration-none btn-primary hover" href="#contact">
+                Contact
+                </a></div>
+            <div class="col-1 hTxtb"><a class="text-decoration-none btn-primary hover" href="#reserve">
+                Reserve
+                </a></div>
+        </div>
+
+    </div>
+
+    <div class="row bGColor d-xl-none">
         <div class="col NAVBAR">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
@@ -26,7 +62,7 @@
                             <a class="nav-link active btn-primary:hover" aria-current="page" href="#overview">
                                 <H3 class="hTxt btn-primary hover">Overview</H3>
                             </a>
-                            <a class="nav-link active" aria-current="page" href="#room">
+                            <a class="nav-link active" aria-current="page" href="#rooms">
                                 <H3 class="hTxt btn-primary hover">Rooms</H3>
                             </a>
                             <a class="nav-link active" aria-current="page" href="#packages">
@@ -34,7 +70,7 @@
                             </a>
                             <img src="./assets/pictures/Logo.png" alt="Logo" width="150" height="100"
                                 class="d-inline-block align-text-top d-none d-xxl-block">
-                            <a class="nav-link active" aria-current="page" href="#amenities">
+                            <a class="nav-link active" aria-current="page" href="#amenitiess">
                                 <H3 class="hTxt btn-primary hover">Amenities</H3>
                             </a>
                             <a class="nav-link active" aria-current="page" href="#contact">
@@ -115,7 +151,7 @@
     <br>
     <!-- Room Cards            -->
     <div class="heroimg5 .d-none d-lg-block d-xl-none">
-        <h3 class="hTxt ">Our Rooms</h3>
+        <h3 id="rooms" class="hTxt ">Our Rooms</h3>
         <div class="container1">
             <div class="row">
                 <div class="col-sm-6 col-lg-6"><img class="imgh img-fluid" src="./assets/pictures/room1.jpg" alt="Queen Room"></div>
@@ -224,11 +260,10 @@
     <br>
     <br>
     <!-- Packages             -->
-    <h3 id="packages" class="heroTxt3">Packages</h3>
-    <div class="containera"></div>
-    <div class="container1">
+    <h1 id="packages" class="heroTxt3">Packages</h1>
+    <div class="container1 d-xxl-none d-xxl-block">
         <div class="row">
-            <div class="col-sm-6 col-lg-6 "><img class="imgh img-fluid" src="./assets/pictures/hamsterwedding.jpg" alt="Hammie wedding">
+            <div class="col-sm-6 col-lg-6"><img class="imgh img-fluid" src="./assets/pictures/hamsterwedding.jpg" alt="Where the sweet hearts play">
             </div>
             <div class="col-sm-6 col-lg-6">
                 <h3 class="heroTxt4">Beach Wedding packages</h3>
@@ -243,10 +278,10 @@
             </div>
         </div>
     </div>
-    <div class="container1">
+    <div class="container1 d-xxl-none d-xxl-block">
         <div class="row ">
-            <div class="col-sm-6 col-lg-6 d-block d-sm-none "><img class="imgh img-fluid"
-                    src="./assets/pictures/hamsterspring.jpg" alt="ham spring">
+            <div class="col-sm-6 col-lg-6 d-block d-sm-none"><img class="img-fluid" src="./assets/pictures/hamsterspring.jpg"
+                    alt="Boing Boing">
             </div>
             <div class="col-sm-6 col-lg-6 ">
                 <h3 class="heroTxt4">Full Bloom Package</h3>
@@ -257,17 +292,17 @@
                     evening
                     with fresh, vegetable centric dinners along with a live show from local musicians.</p>
             </div>
-            <div class="col-sm-6 col-lg-6 d-none d-xl-block"><img class="imgh img-fluid"
-                    src="./assets/pictures/hamsterspring.jpg" alt="ham spring">
+            <div class="col-sm-6 col-lg-6 d-none d-xl-block"><img class="img-fluid" src="./assets/pictures/hamsterspring.jpg"
+                    alt="Boing boing">
             </div>
-            <div class="col-sm-6 col-lg-6 d-none d-md-block d-lg-none"><img class="imgh img-fluid"
-                    src="./assets/pictures/hamsterspring.jpg" alt="">
+            <div class="col-sm-6 col-lg-6 d-none d-md-block d-lg-none"><img class="img-fluid"
+                    src="./assets/pictures/hamsterspring.jpg" alt="Boing boing">
             </div>
         </div>
     </div>
-    <div class="container1">
+    <div class="container1 d-xxl-none .d-xxl-block">
         <div class="row">
-            <div class="col-sm-6 col-lg-6"><img class="imgh img-fluid" src="./assets/pictures/hamstercheese.jpg" alt="ham and cheese">
+            <div class="col-sm-6 col-lg-6"><img class="img-fluid" src="./assets/pictures/hamstercheese.jpg" alt="Hammy and cheesey">
             </div>
             <div class="col-sm-6 col-lg-6">
                 <h3 class="heroTxt4">Cheese and Seed Tour Package</h3>
@@ -282,6 +317,58 @@
             </div>
         </div>
     </div>
+
+    <div class="container1 d-none d-xxl-block">
+        <div class="row">
+            <div class="col-sm-6 col-lg-6"><img class="imgh" src="./assets/pictures/hamsterwedding.jpg" alt="Honey moon room bow chicka wow wow">
+            </div>
+            <div class="col-sm-6 col-lg-6">
+                <h3 class="heroTxt4">Beach Wedding packages</h3>
+                <p class="heroTxt5">Starting US $1,500.00</p>
+                <p class="fontSansReg">Feel the warmth of the beach as the flames in your hearts ignite during our
+                    romantic beach side
+                    wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9"
+                    Vanilla
+                    standard cake). A private dinner for your closets family members and friends will be provided
+                    after
+                    the ceremony.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container1 d-none d-xxl-block">
+        <div class="row ">
+
+            <div class="col-sm-6 col-lg-6 ">
+                <h3 class="heroTxt4">Full Bloom Package</h3>
+                <p class="heroTxt5">Starting US $1,000.00</p>
+                <p class="fontSansReg">Enjoy the shade of our cherry trees as you join us during our spring time
+                    celebration. We invite you
+                    to our orchards for cherry, strawberry, and apple picking that is open all day. We end each
+                    evening
+                    with fresh, vegetable centric dinners along with a live show from local musicians.</p>
+            </div>
+            <div class="col-sm-6 col-lg-6"><img class="imgh" src="./assets/pictures/hamsterspring.jpg" alt="Springy boys">
+            </div>
+        </div>
+    </div>
+    <div class="container1 d-none d-xxl-block">
+        <div class="row">
+            <div class="col-sm-6 col-lg-6"><img class="imgh" src="./assets/pictures/hamstercheese.jpg" alt="Good ol ham and cheese">
+            </div>
+            <div class="col-sm-6 col-lg-6">
+                <h3 class="heroTxt4">Cheese and Seed Tour Package</h3>
+                <p class="heroTxt5">Starting US $1,200.00</p>
+                <p class="fontSansReg">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
+                    consulted with
+                    connoisseurs from around the globe to bring you the best flavors that nature has to offer, and
+                    create our cheeses right here at our local creamery. Cheese and seeds are served all day and
+                    nightly
+                    spa treatment is provided after dinner.
+                </p>
+            </div>
+        </div>
+    </div>
+    
     <!-- END                              -->
     <br>
     <br>
@@ -309,7 +396,7 @@
 
 <div class=".d-none d-lg-block d-xl-none">
 
-    <div class="row heroimg6 hTxt">
+    <div id="amenitiess" class="row heroimg6 hTxt">
         <h1>Amenities</h1>
         <p>Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most
             relaxing
